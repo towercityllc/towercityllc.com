@@ -1,44 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>TOWER CITY LLC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOWER CITY LLC | Handyman & Painting Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+}
+header {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+header p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.container {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.service-box {
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+button, .btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 15px;
+}
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
+ul {
+    padding-left: 20px;
+}
+</style>
 </head>
-<body style="font-family: Arial; max-width: 800px; margin: 40px auto; line-height: 1.6;">
+<body>
 
-<h1>TOWER CITY LLC</h1>
+<header>
+    <h1>TOWER CITY LLC</h1>
+    <p>Professional Handyman & House Painting Services</p>
+    <p>Serving Washington State</p>
+</header>
 
-<p>Business communications and customer support services.</p>
+<div class="container">
 
-<h2>Contact Information</h2>
-<p>Email: support@towercityllc.com</p>
-<p>Address: United States</p>
+    <div class="card">
+        <h2>About the Company</h2>
+        <p>My name is <strong>Ivan Kotok</strong>, owner of TOWER CITY LLC. I provide professional handyman and residential painting services across Washington State. My goal is to deliver high-quality workmanship, reliability, and honest pricing for every project.</p>
+    </div>
 
-<hr>
+    <div class="card">
+        <h2>Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Interior Painting</h3>
+                <p>Walls, ceilings, trim, doors, and full room repainting.</p>
+            </div>
+            <div class="service-box">
+                <h3>Exterior Painting</h3>
+                <p>House exterior repainting and surface preparation.</p>
+            </div>
+            <div class="service-box">
+                <h3>Handyman Services</h3>
+                <p>Minor repairs, installations, drywall fixes, maintenance work.</p>
+            </div>
+        </div>
+    </div>
 
-<h2>SMS Terms of Service</h2>
+    <div class="card">
+        <h2>Service Areas</h2>
+        <ul>
+            <li>Lynnwood</li>
+            <li>Everett</li>
+            <li>Seattle</li>
+            <li>Tacoma</li>
+            <li>And surrounding areas in Washington State</li>
+        </ul>
+    </div>
 
-<p>By providing your phone number, you consent to receive SMS messages from TOWER CITY LLC. Consent is not a condition of purchase.</p>
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: support@towercityllc.com</p>
+        <p>Business Name: TOWER CITY LLC</p>
+        <a href="terms.html" class="btn">View Terms of Service & Privacy Policy</a>
+    </div>
 
-<p>By opting in to SMS messages from TOWER CITY LLC, you agree to receive text messages for customer support, service updates, and other communications related to your account.</p>
+</div>
 
-<p>You can cancel the SMS service at any time. Just text STOP. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us. If you want to join again, just sign up as you did the first time and we will start sending SMS messages to you again.</p>
-
-<p>If you are experiencing issues with the messaging program, you can reply with the keyword HELP for more assistance.</p>
-
-<p>Carriers are not liable for delayed or undelivered messages.</p>
-
-<p>As always, message and data rates may apply for any messages sent to you from us and to us from you. Message frequency varies. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.</p>
-
-<hr>
-
-<h2>Privacy Policy</h2>
-
-<p>TOWER CITY LLC does not share mobile numbers, text messaging originator opt-in data, or consent with any third parties or affiliates for marketing or promotional purposes.</p>
-
-<p>Mobile information may be shared only with subcontractors and service providers that support the delivery of SMS services, such as messaging platforms, telecommunications providers, or customer support vendors. This information is used solely to provide and operate the messaging service.</p>
-
-<p>All other use case categories exclude text messaging originator opt-in data and consent. This information will not be shared with any third parties.</p>
+<footer>
+    © 2026 TOWER CITY LLC | Washington State
+</footer>
 
 </body>
 </html>
