@@ -322,3 +322,43 @@ footer a {
     text-align: center;
     font-weight: 600;
 }
+
+/* Contact Page */
+
+.contact-section {
+    padding: 60px 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.contact-form button {
+    width: 100%;
+}
+
+.map-section {
+    margin-top: 40px;
+}
+
+@media(max-width: 900px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
