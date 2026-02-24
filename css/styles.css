@@ -259,3 +259,66 @@ footer a {
     flex-direction: column;
   }
 }
+
+/* Projects Page */
+
+.page-hero {
+    background: #111;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.filter-buttons {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: #c49b63;
+    color: white;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.project-item img {
+    width: 100%;
+    display: block;
+    transition: 0.4s ease;
+}
+
+.project-item:hover img {
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+}
