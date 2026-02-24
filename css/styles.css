@@ -362,3 +362,18 @@ footer a {
         grid-template-columns: 1fr;
     }
 }
+
+.sms-consent {
+    margin: 15px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.4;
+}
+
+.sms-consent input {
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+}
